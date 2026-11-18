@@ -1,0 +1,16 @@
+data/*
+!data/.gitkeep
+!data/sample.csv
+
+target/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.class
+
+.idea/
+.vscode/
+
+.env
+*.key
+*secret*

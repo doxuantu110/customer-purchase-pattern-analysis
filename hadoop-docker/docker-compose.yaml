@@ -1,0 +1,47 @@
+# Cụm Hadoop mini cho đồ án (thay thế Azure HDInsight)
+# Image chính thức: apache/hadoop:3.3.6 (HDInsight 5.1 dùng Hadoop 3.3.x nên gần tương đương)
+#
+# Chạy:   docker compose up -d --scale datanode=2 --scale nodemanager=2
+# Dừng:   docker compose down        (giữ dữ liệu HDFS)
+# Xóa hết: docker compose down -v    (xóa cả dữ liệu HDFS)
+
+x-hadoop: &hadoop
+  image: apache/hadoop:3.3.6
+  env_file:
+    - ./config
+  volumes:
+    - ../data:/data                    # dữ liệu CSV trên máy bạn
+    - ../mapreduce-java/target:/jars   # JAR sau khi mvn package
+    - ../streaming:/streaming          # mapper.py, reducer.py
+
+services:
+  namenode:
+    <<: *hadoop
+    hostname: namenode
+    command: ["hdfs", "namenode"]
+    ports:
+      - "9870:9870"   # HDFS Web UI
+    environment:
+      ENSURE_NAMENODE_DIR: "/tmp/hadoop-root/dfs/name"
+
+  datanode:
+    <<: *hadoop
+    command: ["hdfs", "datanode"]
+
+  resourcemanager:
+    <<: *hadoop
+    hostname: resourcemanager
+    command: ["yarn", "resourcemanager"]
+    ports:
+      - "8088:8088"   # YARN ResourceManager UI
+
+  nodemanager:
+    <<: *hadoop
+    command: ["yarn", "nodemanager"]
+
+  historyserver:
+    <<: *hadoop
+    hostname: historyserver
+    command: ["mapred", "historyserver"]
+    ports:
+      - "19888:19888" # Job History UI
