@@ -1,0 +1,4 @@
+cluster,customers,recency_mean,recency_median,frequency_mean,frequency_median,monetary_mean,monetary_median,monetary_total,pct_customers,pct_revenue
+0,59247,10.76,10.0,6.21,4.0,2437.14,1413.46,144393368.72,17.07,62.8
+1,81274,4.63,5.0,1.41,1.0,328.61,214.93,26707396.42,23.41,11.62
+2,206597,19.62,19.0,1.26,1.0,284.77,174.45,58832447.49,59.52,25.59
