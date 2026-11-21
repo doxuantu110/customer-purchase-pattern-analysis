@@ -1,47 +1,99 @@
-# Cụm Hadoop mini cho đồ án (thay thế Azure HDInsight)
-# Image chính thức: apache/hadoop:3.3.6 (HDInsight 5.1 dùng Hadoop 3.3.x nên gần tương đương)
+# Cụm Hadoop mini (bản 2): HDFS lưu trong Docker volume nên KHÔNG mất khi `docker compose down`.
 #
-# Chạy:   docker compose up -d --scale datanode=2 --scale nodemanager=2
-# Dừng:   docker compose down        (giữ dữ liệu HDFS)
-# Xóa hết: docker compose down -v    (xóa cả dữ liệu HDFS)
+# Khởi động : docker compose up -d --scale nodemanager=2
+# Dừng      : docker compose down         (giữ HDFS; volume vẫn còn)
+# Xóa sạch  : docker compose down -v      (xóa cả HDFS - chỉ dùng khi muốn làm lại từ đầu)
+#
+# Nếu `docker compose exec namenode id` báo uid khác 1000, chạy:
+#   HADOOP_UID=<uid> HADOOP_GID=<gid> docker compose up -d --scale nodemanager=2
+
+x-binds: &binds
+  - ../data:/data
+  - ../mapreduce-java/target:/jars
+  - ../streaming:/streaming
 
 x-hadoop: &hadoop
   image: apache/hadoop:3.3.6
   env_file:
     - ./config
-  volumes:
-    - ../data:/data                    # dữ liệu CSV trên máy bạn
-    - ../mapreduce-java/target:/jars   # JAR sau khi mvn package
-    - ../streaming:/streaming          # mapper.py, reducer.py
 
 services:
+  # Chạy 1 lần: gán quyền cho các volume để user trong image Hadoop ghi được
+  init-perms:
+    image: busybox:1.36
+    user: root
+    command: ["sh", "-c", "chown -R ${HADOOP_UID:-1000}:${HADOOP_GID:-1000} /v/nn /v/dn1 /v/dn2"]
+    volumes:
+      - nn-data:/v/nn
+      - dn1-data:/v/dn1
+      - dn2-data:/v/dn2
+
   namenode:
     <<: *hadoop
     hostname: namenode
     command: ["hdfs", "namenode"]
+    depends_on:
+      init-perms:
+        condition: service_completed_successfully
     ports:
-      - "9870:9870"   # HDFS Web UI
+      - "9870:9870"
     environment:
-      ENSURE_NAMENODE_DIR: "/tmp/hadoop-root/dfs/name"
+      # Chỉ format khi chưa có thư mục current (lần chạy đầu tiên)
+      ENSURE_NAMENODE_DIR: "/hadoop/dfs/name/current"
+    volumes:
+      - ../data:/data
+      - ../mapreduce-java/target:/jars
+      - ../streaming:/streaming
+      - nn-data:/hadoop/dfs/name
 
-  datanode:
+  datanode1:
     <<: *hadoop
+    hostname: datanode1
     command: ["hdfs", "datanode"]
+    depends_on:
+      init-perms:
+        condition: service_completed_successfully
+    volumes:
+      - ../data:/data
+      - ../mapreduce-java/target:/jars
+      - ../streaming:/streaming
+      - dn1-data:/hadoop/dfs/data
+
+  datanode2:
+    <<: *hadoop
+    hostname: datanode2
+    command: ["hdfs", "datanode"]
+    depends_on:
+      init-perms:
+        condition: service_completed_successfully
+    volumes:
+      - ../data:/data
+      - ../mapreduce-java/target:/jars
+      - ../streaming:/streaming
+      - dn2-data:/hadoop/dfs/data
 
   resourcemanager:
     <<: *hadoop
     hostname: resourcemanager
     command: ["yarn", "resourcemanager"]
     ports:
-      - "8088:8088"   # YARN ResourceManager UI
+      - "8088:8088"
+    volumes: *binds
 
   nodemanager:
     <<: *hadoop
     command: ["yarn", "nodemanager"]
+    volumes: *binds
 
   historyserver:
     <<: *hadoop
     hostname: historyserver
     command: ["mapred", "historyserver"]
     ports:
-      - "19888:19888" # Job History UI
+      - "19888:19888"
+    volumes: *binds
+
+volumes:
+  nn-data:
+  dn1-data:
+  dn2-data:

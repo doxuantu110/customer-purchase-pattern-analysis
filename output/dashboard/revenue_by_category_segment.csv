@@ -1,0 +1,57 @@
+﻿category_top,segment_id,segment,revenue,purchases,customers
+accessories,0,Khách giá trị cao,28351.47,616,309
+accessories,1,"Khách giỏ hàng lớn, chưa quay lại",11274.86,231,183
+accessories,2,"Khách mua gần đây, chi tiêu trung bình",11937.1,234,190
+accessories,3,"Khách mua lẻ, giá trị thấp",17220.45,506,452
+apparel,0,Khách giá trị cao,252385.05,3178,1301
+apparel,1,"Khách giỏ hàng lớn, chưa quay lại",121672.05,1414,910
+apparel,2,"Khách mua gần đây, chi tiêu trung bình",99039.52,1272,972
+apparel,3,"Khách mua lẻ, giá trị thấp",151841.13,2138,2003
+appliances,0,Khách giá trị cao,4932111.89,23029,7322
+appliances,1,"Khách giỏ hàng lớn, chưa quay lại",5189128.74,20656,14667
+appliances,2,"Khách mua gần đây, chi tiêu trung bình",2085037.14,12876,10277
+appliances,3,"Khách mua lẻ, giá trị thấp",1375482.81,18427,17014
+auto,0,Khách giá trị cao,431633.89,3283,1276
+auto,1,"Khách giỏ hàng lớn, chưa quay lại",369164.67,2620,1801
+auto,2,"Khách mua gần đây, chi tiêu trung bình",165923.09,1422,1151
+auto,3,"Khách mua lẻ, giá trị thấp",307234.06,3294,3154
+computers,0,Khách giá trị cao,5826870.92,12248,3653
+computers,1,"Khách giỏ hàng lớn, chưa quay lại",4215419.85,9114,6979
+computers,2,"Khách mua gần đây, chi tiêu trung bình",1127894.8,3617,2959
+computers,3,"Khách mua lẻ, giá trị thấp",207685.25,2874,2609
+construction,0,Khách giá trị cao,347887.67,2459,944
+construction,1,"Khách giỏ hàng lớn, chưa quay lại",253929.92,1624,1098
+construction,2,"Khách mua gần đây, chi tiêu trung bình",148855.26,1355,1092
+construction,3,"Khách mua lẻ, giá trị thấp",182322.17,2363,2219
+country_yard,0,Khách giá trị cao,4101.76,12,8
+country_yard,1,"Khách giỏ hàng lớn, chưa quay lại",7656.46,29,23
+country_yard,2,"Khách mua gần đây, chi tiêu trung bình",1770.84,13,10
+country_yard,3,"Khách mua lẻ, giá trị thấp",2166.39,18,18
+electronics,0,Khách giá trị cao,95569438.89,198188,31345
+electronics,1,"Khách giỏ hàng lớn, chưa quay lại",58423187.96,128394,86058
+electronics,2,"Khách mua gần đây, chi tiêu trung bình",17090573.93,53389,40877
+electronics,3,"Khách mua lẻ, giá trị thấp",5362377.08,43008,41751
+furniture,0,Khách giá trị cao,691646.06,3149,1298
+furniture,1,"Khách giỏ hàng lớn, chưa quay lại",466545.65,1776,1344
+furniture,2,"Khách mua gần đây, chi tiêu trung bình",392285.69,1949,1662
+furniture,3,"Khách mua lẻ, giá trị thấp",122765.61,1425,1340
+kids,0,Khách giá trị cao,265143.6,1844,757
+kids,1,"Khách giỏ hàng lớn, chưa quay lại",224177.02,1110,787
+kids,2,"Khách mua gần đây, chi tiêu trung bình",101389.55,947,738
+kids,3,"Khách mua lẻ, giá trị thấp",87430.5,1581,1407
+medicine,0,Khách giá trị cao,2481.46,55,40
+medicine,1,"Khách giỏ hàng lớn, chưa quay lại",1833.33,39,28
+medicine,2,"Khách mua gần đây, chi tiêu trung bình",3002.58,71,60
+medicine,3,"Khách mua lẻ, giá trị thấp",6183.05,145,136
+sport,0,Khách giá trị cao,114363.48,443,197
+sport,1,"Khách giỏ hàng lớn, chưa quay lại",134761.64,377,278
+sport,2,"Khách mua gần đây, chi tiêu trung bình",46729.33,215,187
+sport,3,"Khách mua lẻ, giá trị thấp",26704.55,201,199
+stationery,0,Khách giá trị cao,341.54,20,10
+stationery,1,"Khách giỏ hàng lớn, chưa quay lại",237.79,11,6
+stationery,2,"Khách mua gần đây, chi tiêu trung bình",336.29,25,20
+stationery,3,"Khách mua lẻ, giá trị thấp",1111.76,78,55
+unknown,0,Khách giá trị cao,9704508.24,56693,14816
+unknown,1,"Khách giỏ hàng lớn, chưa quay lại",7085029.22,33442,21435
+unknown,2,"Khách mua gần đây, chi tiêu trung bình",3031389.21,27754,20118
+unknown,3,"Khách mua lẻ, giá trị thấp",3101238.41,55522,48528

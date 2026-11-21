@@ -1,0 +1,673 @@
+﻿segment_id,segment,dow,hour,purchases,dow_name
+0,Khách giá trị cao,1,0,194,Thứ 2
+0,Khách giá trị cao,1,1,371,Thứ 2
+0,Khách giá trị cao,1,2,777,Thứ 2
+0,Khách giá trị cao,1,3,1709,Thứ 2
+0,Khách giá trị cao,1,4,2533,Thứ 2
+0,Khách giá trị cao,1,5,2687,Thứ 2
+0,Khách giá trị cao,1,6,2785,Thứ 2
+0,Khách giá trị cao,1,7,2730,Thứ 2
+0,Khách giá trị cao,1,8,3006,Thứ 2
+0,Khách giá trị cao,1,9,3148,Thứ 2
+0,Khách giá trị cao,1,10,3067,Thứ 2
+0,Khách giá trị cao,1,11,2713,Thứ 2
+0,Khách giá trị cao,1,12,2340,Thứ 2
+0,Khách giá trị cao,1,13,2014,Thứ 2
+0,Khách giá trị cao,1,14,1897,Thứ 2
+0,Khách giá trị cao,1,15,1885,Thứ 2
+0,Khách giá trị cao,1,16,1849,Thứ 2
+0,Khách giá trị cao,1,17,1640,Thứ 2
+0,Khách giá trị cao,1,18,1476,Thứ 2
+0,Khách giá trị cao,1,19,1092,Thứ 2
+0,Khách giá trị cao,1,20,640,Thứ 2
+0,Khách giá trị cao,1,21,363,Thứ 2
+0,Khách giá trị cao,1,22,217,Thứ 2
+0,Khách giá trị cao,1,23,165,Thứ 2
+0,Khách giá trị cao,2,0,212,Thứ 3
+0,Khách giá trị cao,2,1,307,Thứ 3
+0,Khách giá trị cao,2,2,958,Thứ 3
+0,Khách giá trị cao,2,3,2022,Thứ 3
+0,Khách giá trị cao,2,4,2636,Thứ 3
+0,Khách giá trị cao,2,5,3162,Thứ 3
+0,Khách giá trị cao,2,6,3343,Thứ 3
+0,Khách giá trị cao,2,7,3485,Thứ 3
+0,Khách giá trị cao,2,8,3479,Thứ 3
+0,Khách giá trị cao,2,9,3630,Thứ 3
+0,Khách giá trị cao,2,10,3219,Thứ 3
+0,Khách giá trị cao,2,11,2801,Thứ 3
+0,Khách giá trị cao,2,12,2421,Thứ 3
+0,Khách giá trị cao,2,13,2216,Thứ 3
+0,Khách giá trị cao,2,14,2141,Thứ 3
+0,Khách giá trị cao,2,15,2220,Thứ 3
+0,Khách giá trị cao,2,16,2301,Thứ 3
+0,Khách giá trị cao,2,17,1942,Thứ 3
+0,Khách giá trị cao,2,18,1751,Thứ 3
+0,Khách giá trị cao,2,19,1210,Thứ 3
+0,Khách giá trị cao,2,20,781,Thứ 3
+0,Khách giá trị cao,2,21,520,Thứ 3
+0,Khách giá trị cao,2,22,323,Thứ 3
+0,Khách giá trị cao,2,23,237,Thứ 3
+0,Khách giá trị cao,3,0,250,Thứ 4
+0,Khách giá trị cao,3,1,422,Thứ 4
+0,Khách giá trị cao,3,2,937,Thứ 4
+0,Khách giá trị cao,3,3,2184,Thứ 4
+0,Khách giá trị cao,3,4,2665,Thứ 4
+0,Khách giá trị cao,3,5,3018,Thứ 4
+0,Khách giá trị cao,3,6,3424,Thứ 4
+0,Khách giá trị cao,3,7,3415,Thứ 4
+0,Khách giá trị cao,3,8,3364,Thứ 4
+0,Khách giá trị cao,3,9,3828,Thứ 4
+0,Khách giá trị cao,3,10,3348,Thứ 4
+0,Khách giá trị cao,3,11,2904,Thứ 4
+0,Khách giá trị cao,3,12,2824,Thứ 4
+0,Khách giá trị cao,3,13,2464,Thứ 4
+0,Khách giá trị cao,3,14,2348,Thứ 4
+0,Khách giá trị cao,3,15,2343,Thứ 4
+0,Khách giá trị cao,3,16,2205,Thứ 4
+0,Khách giá trị cao,3,17,2121,Thứ 4
+0,Khách giá trị cao,3,18,1669,Thứ 4
+0,Khách giá trị cao,3,19,1286,Thứ 4
+0,Khách giá trị cao,3,20,754,Thứ 4
+0,Khách giá trị cao,3,21,481,Thứ 4
+0,Khách giá trị cao,3,22,381,Thứ 4
+0,Khách giá trị cao,3,23,220,Thứ 4
+0,Khách giá trị cao,4,0,205,Thứ 5
+0,Khách giá trị cao,4,1,330,Thứ 5
+0,Khách giá trị cao,4,2,939,Thứ 5
+0,Khách giá trị cao,4,3,2033,Thứ 5
+0,Khách giá trị cao,4,4,2671,Thứ 5
+0,Khách giá trị cao,4,5,2903,Thứ 5
+0,Khách giá trị cao,4,6,3541,Thứ 5
+0,Khách giá trị cao,4,7,3305,Thứ 5
+0,Khách giá trị cao,4,8,3573,Thứ 5
+0,Khách giá trị cao,4,9,3608,Thứ 5
+0,Khách giá trị cao,4,10,3169,Thứ 5
+0,Khách giá trị cao,4,11,2803,Thứ 5
+0,Khách giá trị cao,4,12,2372,Thứ 5
+0,Khách giá trị cao,4,13,2285,Thứ 5
+0,Khách giá trị cao,4,14,2140,Thứ 5
+0,Khách giá trị cao,4,15,2238,Thứ 5
+0,Khách giá trị cao,4,16,2096,Thứ 5
+0,Khách giá trị cao,4,17,1908,Thứ 5
+0,Khách giá trị cao,4,18,1926,Thứ 5
+0,Khách giá trị cao,4,19,1381,Thứ 5
+0,Khách giá trị cao,4,20,809,Thứ 5
+0,Khách giá trị cao,4,21,556,Thứ 5
+0,Khách giá trị cao,4,22,370,Thứ 5
+0,Khách giá trị cao,4,23,282,Thứ 5
+0,Khách giá trị cao,5,0,205,Thứ 6
+0,Khách giá trị cao,5,1,378,Thứ 6
+0,Khách giá trị cao,5,2,789,Thứ 6
+0,Khách giá trị cao,5,3,1854,Thứ 6
+0,Khách giá trị cao,5,4,2323,Thứ 6
+0,Khách giá trị cao,5,5,2802,Thứ 6
+0,Khách giá trị cao,5,6,2856,Thứ 6
+0,Khách giá trị cao,5,7,2932,Thứ 6
+0,Khách giá trị cao,5,8,3100,Thứ 6
+0,Khách giá trị cao,5,9,3042,Thứ 6
+0,Khách giá trị cao,5,10,2898,Thứ 6
+0,Khách giá trị cao,5,11,2738,Thứ 6
+0,Khách giá trị cao,5,12,2447,Thứ 6
+0,Khách giá trị cao,5,13,2404,Thứ 6
+0,Khách giá trị cao,5,14,2074,Thứ 6
+0,Khách giá trị cao,5,15,1861,Thứ 6
+0,Khách giá trị cao,5,16,1916,Thứ 6
+0,Khách giá trị cao,5,17,1737,Thứ 6
+0,Khách giá trị cao,5,18,1438,Thứ 6
+0,Khách giá trị cao,5,19,1062,Thứ 6
+0,Khách giá trị cao,5,20,653,Thứ 6
+0,Khách giá trị cao,5,21,489,Thứ 6
+0,Khách giá trị cao,5,22,261,Thứ 6
+0,Khách giá trị cao,5,23,203,Thứ 6
+0,Khách giá trị cao,6,0,219,Thứ 7
+0,Khách giá trị cao,6,1,332,Thứ 7
+0,Khách giá trị cao,6,2,750,Thứ 7
+0,Khách giá trị cao,6,3,1628,Thứ 7
+0,Khách giá trị cao,6,4,2270,Thứ 7
+0,Khách giá trị cao,6,5,2472,Thứ 7
+0,Khách giá trị cao,6,6,2772,Thứ 7
+0,Khách giá trị cao,6,7,2962,Thứ 7
+0,Khách giá trị cao,6,8,2872,Thứ 7
+0,Khách giá trị cao,6,9,2560,Thứ 7
+0,Khách giá trị cao,6,10,2640,Thứ 7
+0,Khách giá trị cao,6,11,2322,Thứ 7
+0,Khách giá trị cao,6,12,1988,Thứ 7
+0,Khách giá trị cao,6,13,1883,Thứ 7
+0,Khách giá trị cao,6,14,1799,Thứ 7
+0,Khách giá trị cao,6,15,1803,Thứ 7
+0,Khách giá trị cao,6,16,1602,Thứ 7
+0,Khách giá trị cao,6,17,1559,Thứ 7
+0,Khách giá trị cao,6,18,1421,Thứ 7
+0,Khách giá trị cao,6,19,1010,Thứ 7
+0,Khách giá trị cao,6,20,741,Thứ 7
+0,Khách giá trị cao,6,21,468,Thứ 7
+0,Khách giá trị cao,6,22,295,Thứ 7
+0,Khách giá trị cao,6,23,237,Thứ 7
+0,Khách giá trị cao,7,0,180,Chủ nhật
+0,Khách giá trị cao,7,1,294,Chủ nhật
+0,Khách giá trị cao,7,2,648,Chủ nhật
+0,Khách giá trị cao,7,3,1334,Chủ nhật
+0,Khách giá trị cao,7,4,2043,Chủ nhật
+0,Khách giá trị cao,7,5,2493,Chủ nhật
+0,Khách giá trị cao,7,6,2550,Chủ nhật
+0,Khách giá trị cao,7,7,2799,Chủ nhật
+0,Khách giá trị cao,7,8,2890,Chủ nhật
+0,Khách giá trị cao,7,9,2878,Chủ nhật
+0,Khách giá trị cao,7,10,2798,Chủ nhật
+0,Khách giá trị cao,7,11,2486,Chủ nhật
+0,Khách giá trị cao,7,12,2296,Chủ nhật
+0,Khách giá trị cao,7,13,1851,Chủ nhật
+0,Khách giá trị cao,7,14,1737,Chủ nhật
+0,Khách giá trị cao,7,15,1886,Chủ nhật
+0,Khách giá trị cao,7,16,1819,Chủ nhật
+0,Khách giá trị cao,7,17,1744,Chủ nhật
+0,Khách giá trị cao,7,18,1483,Chủ nhật
+0,Khách giá trị cao,7,19,1291,Chủ nhật
+0,Khách giá trị cao,7,20,708,Chủ nhật
+0,Khách giá trị cao,7,21,532,Chủ nhật
+0,Khách giá trị cao,7,22,266,Chủ nhật
+0,Khách giá trị cao,7,23,231,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",1,0,84,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,1,174,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,2,474,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,3,984,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,4,1352,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,5,1626,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,6,1633,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,7,1718,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,8,1882,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,9,1930,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,10,1874,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,11,1588,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,12,1417,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,13,1436,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,14,1285,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,15,1346,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,16,1251,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,17,1021,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,18,710,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,19,453,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,20,272,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,21,179,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,22,102,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",1,23,81,Thứ 2
+1,"Khách giỏ hàng lớn, chưa quay lại",2,0,95,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,1,154,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,2,559,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,3,1265,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,4,1726,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,5,2055,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,6,2350,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,7,2347,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,8,2588,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,9,2425,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,10,2074,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,11,1956,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,12,1805,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,13,1753,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,14,1617,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,15,1758,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,16,1715,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,17,1313,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,18,994,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,19,635,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,20,353,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,21,229,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,22,122,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",2,23,110,Thứ 3
+1,"Khách giỏ hàng lớn, chưa quay lại",3,0,105,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,1,250,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,2,625,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,3,1167,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,4,1794,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,5,2160,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,6,2278,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,7,2400,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,8,2501,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,9,2535,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,10,2469,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,11,2141,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,12,2029,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,13,1954,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,14,1771,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,15,1751,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,16,1588,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,17,1317,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,18,882,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,19,647,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,20,336,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,21,218,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,22,131,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",3,23,81,Thứ 4
+1,"Khách giỏ hàng lớn, chưa quay lại",4,0,123,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,1,139,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,2,497,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,3,1153,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,4,1521,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,5,1723,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,6,2075,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,7,2042,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,8,2112,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,9,2099,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,10,1892,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,11,1903,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,12,1447,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,13,1487,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,14,1494,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,15,1483,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,16,1295,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,17,1145,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,18,938,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,19,637,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,20,387,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,21,239,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,22,152,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",4,23,123,Thứ 5
+1,"Khách giỏ hàng lớn, chưa quay lại",5,0,100,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,1,224,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,2,594,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,3,1159,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,4,1543,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,5,1893,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,6,1927,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,7,1993,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,8,2069,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,9,2320,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,10,2091,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,11,2053,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,12,1794,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,13,1807,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,14,1631,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,15,1551,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,16,1458,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,17,1274,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,18,908,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,19,598,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,20,341,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,21,194,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,22,136,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",5,23,83,Thứ 6
+1,"Khách giỏ hàng lớn, chưa quay lại",6,0,98,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,1,216,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,2,429,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,3,967,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,4,1490,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,5,1709,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,6,1853,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,7,2021,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,8,2009,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,9,1994,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,10,1890,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,11,1802,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,12,1511,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,13,1359,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,14,1278,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,15,1259,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,16,1174,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,17,1057,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,18,773,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,19,518,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,20,390,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,21,212,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,22,130,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",6,23,74,Thứ 7
+1,"Khách giỏ hàng lớn, chưa quay lại",7,0,84,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,1,159,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,2,368,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,3,789,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,4,1264,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,5,1706,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,6,1750,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,7,1978,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,8,2091,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,9,2159,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,10,2178,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,11,1957,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,12,1681,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,13,1498,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,14,1362,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,15,1332,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,16,1287,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,17,1149,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,18,796,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,19,563,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,20,260,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,21,184,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,22,118,Chủ nhật
+1,"Khách giỏ hàng lớn, chưa quay lại",7,23,64,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",1,0,37,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,1,86,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,2,215,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,3,491,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,4,723,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,5,935,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,6,988,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,7,1030,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,8,1068,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,9,984,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,10,988,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,11,923,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,12,796,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,13,775,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,14,767,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,15,738,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,16,730,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,17,599,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,18,425,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,19,263,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,20,146,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,21,109,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,22,55,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",1,23,41,Thứ 2
+2,"Khách mua gần đây, chi tiêu trung bình",2,0,44,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,1,105,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,2,244,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,3,533,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,4,763,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,5,937,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,6,978,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,7,1070,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,8,1128,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,9,1088,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,10,1000,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,11,970,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,12,829,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,13,788,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,14,813,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,15,791,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,16,732,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,17,641,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,18,488,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,19,263,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,20,167,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,21,91,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,22,42,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",2,23,44,Thứ 3
+2,"Khách mua gần đây, chi tiêu trung bình",3,0,51,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,1,129,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,2,272,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,3,641,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,4,914,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,5,1046,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,6,1094,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,7,1071,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,8,1157,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,9,1139,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,10,1062,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,11,999,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,12,926,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,13,953,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,14,938,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,15,946,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,16,865,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,17,721,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,18,504,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,19,323,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,20,192,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,21,97,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,22,70,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",3,23,44,Thứ 4
+2,"Khách mua gần đây, chi tiêu trung bình",4,0,82,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,1,123,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,2,386,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,3,784,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,4,1095,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,5,1215,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,6,1354,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,7,1530,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,8,1527,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,9,1413,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,10,1374,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,11,1217,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,12,1123,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,13,1023,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,14,1212,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,15,1153,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,16,1115,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,17,900,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,18,724,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,19,430,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,20,230,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,21,170,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,22,87,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",4,23,59,Thứ 5
+2,"Khách mua gần đây, chi tiêu trung bình",5,0,42,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,1,83,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,2,237,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,3,443,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,4,594,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,5,756,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,6,845,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,7,824,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,8,784,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,9,721,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,10,726,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,11,729,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,12,688,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,13,676,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,14,656,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,15,641,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,16,619,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,17,446,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,18,374,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,19,225,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,20,125,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,21,56,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,22,44,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",5,23,28,Thứ 6
+2,"Khách mua gần đây, chi tiêu trung bình",6,0,35,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,1,97,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,2,267,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,3,503,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,4,780,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,5,937,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,6,983,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,7,1074,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,8,1036,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,9,721,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,10,1003,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,11,854,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,12,819,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,13,730,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,14,650,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,15,652,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,16,637,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,17,541,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,18,433,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,19,296,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,20,187,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,21,91,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,22,68,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",6,23,35,Thứ 7
+2,"Khách mua gần đây, chi tiêu trung bình",7,0,36,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,1,93,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,2,245,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,3,526,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,4,805,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,5,1038,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,6,1120,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,7,1115,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,8,1124,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,9,1154,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,10,1037,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,11,1045,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,12,962,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,13,920,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,14,851,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,15,809,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,16,785,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,17,665,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,18,424,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,19,297,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,20,165,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,21,95,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,22,64,Chủ nhật
+2,"Khách mua gần đây, chi tiêu trung bình",7,23,32,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",1,0,63,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,1,125,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,2,347,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,3,673,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,4,925,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,5,1112,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,6,1105,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,7,1102,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,8,1149,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,9,1215,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,10,1085,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,11,1055,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,12,898,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,13,822,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,14,851,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,15,907,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,16,844,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,17,684,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,18,459,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,19,247,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,20,131,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,21,92,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,22,52,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",1,23,34,Thứ 2
+3,"Khách mua lẻ, giá trị thấp",2,0,52,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,1,132,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,2,456,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,3,923,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,4,1189,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,5,1403,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,6,1570,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,7,1559,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,8,1561,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,9,1505,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,10,1337,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,11,1220,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,12,1102,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,13,1019,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,14,1047,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,15,1167,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,16,1160,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,17,867,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,18,627,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,19,350,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,20,187,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,21,99,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,22,43,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",2,23,63,Thứ 3
+3,"Khách mua lẻ, giá trị thấp",3,0,76,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,1,181,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,2,469,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,3,855,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,4,1198,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,5,1357,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,6,1561,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,7,1523,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,8,1583,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,9,1604,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,10,1561,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,11,1299,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,12,1267,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,13,1148,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,14,1057,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,15,1137,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,16,1059,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,17,835,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,18,539,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,19,331,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,20,156,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,21,120,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,22,56,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",3,23,43,Thứ 4
+3,"Khách mua lẻ, giá trị thấp",4,0,65,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,1,138,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,2,438,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,3,781,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,4,1095,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,5,1084,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,6,1269,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,7,1257,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,8,1318,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,9,1275,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,10,1192,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,11,1104,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,12,968,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,13,944,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,14,929,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,15,966,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,16,854,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,17,762,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,18,581,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,19,352,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,20,196,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,21,96,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,22,70,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",4,23,51,Thứ 5
+3,"Khách mua lẻ, giá trị thấp",5,0,97,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,1,190,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,2,407,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,3,867,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,4,1215,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,5,1292,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,6,1350,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,7,1373,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,8,1325,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,9,1405,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,10,1306,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,11,1271,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,12,1062,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,13,1048,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,14,1070,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,15,1099,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,16,902,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,17,776,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,18,534,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,19,363,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,20,234,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,21,109,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,22,74,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",5,23,61,Thứ 6
+3,"Khách mua lẻ, giá trị thấp",6,0,60,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,1,154,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,2,327,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,3,754,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,4,1041,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,5,1289,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,6,1356,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,7,1372,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,8,1395,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,9,1291,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,10,1197,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,11,1167,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,12,941,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,13,899,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,14,918,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,15,878,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,16,904,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,17,721,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,18,564,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,19,292,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,20,197,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,21,99,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,22,68,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",6,23,44,Thứ 7
+3,"Khách mua lẻ, giá trị thấp",7,0,55,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,1,140,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,2,314,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,3,610,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,4,975,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,5,1258,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,6,1292,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,7,1377,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,8,1504,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,9,1511,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,10,1427,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,11,1291,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,12,1087,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,13,979,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,14,1030,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,15,1032,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,16,1010,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,17,787,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,18,480,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,19,332,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,20,154,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,21,90,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,22,40,Chủ nhật
+3,"Khách mua lẻ, giá trị thấp",7,23,32,Chủ nhật

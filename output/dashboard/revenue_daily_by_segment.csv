@@ -1,0 +1,118 @@
+﻿date,segment_id,segment,revenue,purchases
+2019-10-01,0,Khách giá trị cao,2752928.42,6748
+2019-10-01,1,"Khách giỏ hàng lớn, chưa quay lại",3036056.99,7529
+2019-10-01,2,"Khách mua gần đây, chi tiêu trung bình",80918.62,441
+2019-10-01,3,"Khách mua lẻ, giá trị thấp",405675.03,4587
+2019-10-02,0,Khách giá trị cao,2877923.02,7278
+2019-10-02,1,"Khách giỏ hàng lớn, chưa quay lại",2896097.03,7502
+2019-10-02,2,"Khách mua gần đây, chi tiêu trung bình",70298.32,434
+2019-10-02,3,"Khách mua lẻ, giá trị thấp",369310.16,4255
+2019-10-03,0,Khách giá trị cao,2988805.48,7453
+2019-10-03,1,"Khách giỏ hàng lớn, chưa quay lại",2805712.17,7246
+2019-10-03,2,"Khách mua gần đây, chi tiêu trung bình",74704.36,437
+2019-10-03,3,"Khách mua lẻ, giá trị thấp",364560.97,4119
+2019-10-04,0,Khách giá trị cao,3938708.74,10060
+2019-10-04,1,"Khách giỏ hàng lớn, chưa quay lại",4036688.02,10381
+2019-10-04,2,"Khách mua gần đây, chi tiêu trung bình",106802.9,586
+2019-10-04,3,"Khách mua lẻ, giá trị thấp",540858.53,6012
+2019-10-05,0,Khách giá trị cao,3488446.99,8940
+2019-10-05,1,"Khách giỏ hàng lớn, chưa quay lại",3287231.8,8780
+2019-10-05,2,"Khách mua gần đây, chi tiêu trung bình",89692.98,522
+2019-10-05,3,"Khách mua lẻ, giá trị thấp",475722.69,5250
+2019-10-06,0,Khách giá trị cao,3072156.47,8018
+2019-10-06,1,"Khách giỏ hàng lớn, chưa quay lại",3110296.15,8477
+2019-10-06,2,"Khách mua gần đây, chi tiêu trung bình",91303.2,536
+2019-10-06,3,"Khách mua lẻ, giá trị thấp",463502.35,5138
+2019-10-07,0,Khách giá trị cao,3061530.29,8239
+2019-10-07,1,"Khách giỏ hàng lớn, chưa quay lại",2768813.64,7664
+2019-10-07,2,"Khách mua gần đây, chi tiêu trung bình",89662.52,490
+2019-10-07,3,"Khách mua lẻ, giá trị thấp",428182.61,4985
+2019-10-08,0,Khách giá trị cao,3419058.63,9210
+2019-10-08,1,"Khách giỏ hàng lớn, chưa quay lại",2848962.88,7852
+2019-10-08,2,"Khách mua gần đây, chi tiêu trung bình",91835.72,557
+2019-10-08,3,"Khách mua lẻ, giá trị thấp",459844.03,5452
+2019-10-09,0,Khách giá trị cao,3404232.36,8861
+2019-10-09,1,"Khách giỏ hàng lớn, chưa quay lại",2895308.73,8037
+2019-10-09,2,"Khách mua gần đây, chi tiêu trung bình",107361.38,563
+2019-10-09,3,"Khách mua lẻ, giá trị thấp",448423.58,5286
+2019-10-10,0,Khách giá trị cao,3354930.76,8865
+2019-10-10,1,"Khách giỏ hàng lớn, chưa quay lại",2794761.87,7587
+2019-10-10,2,"Khách mua gần đây, chi tiêu trung bình",100200.95,547
+2019-10-10,3,"Khách mua lẻ, giá trị thấp",415519.63,4993
+2019-10-11,0,Khách giá trị cao,3821256.26,10250
+2019-10-11,1,"Khách giỏ hàng lớn, chưa quay lại",3262358.8,9016
+2019-10-11,2,"Khách mua gần đây, chi tiêu trung bình",127639.3,674
+2019-10-11,3,"Khách mua lẻ, giá trị thấp",504954.19,6284
+2019-10-12,0,Khách giá trị cao,3581026.16,9430
+2019-10-12,1,"Khách giỏ hàng lớn, chưa quay lại",3101203.32,8874
+2019-10-12,2,"Khách mua gần đây, chi tiêu trung bình",103316.01,674
+2019-10-12,3,"Khách mua lẻ, giá trị thấp",522146.08,6395
+2019-10-13,0,Khách giá trị cao,4164081.08,10694
+2019-10-13,1,"Khách giỏ hàng lớn, chưa quay lại",3545623.01,10329
+2019-10-13,2,"Khách mua gần đây, chi tiêu trung bình",133178.05,819
+2019-10-13,3,"Khách mua lẻ, giá trị thấp",614724.35,7719
+2019-10-14,0,Khách giá trị cao,5178016.76,12932
+2019-10-14,1,"Khách giỏ hàng lớn, chưa quay lại",3604348.33,9430
+2019-10-14,2,"Khách mua gần đây, chi tiêu trung bình",118996.09,696
+2019-10-14,3,"Khách mua lẻ, giá trị thấp",455330.47,5347
+2019-10-15,0,Khách giá trị cao,4627467.38,11664
+2019-10-15,1,"Khách giỏ hàng lớn, chưa quay lại",3440622.05,8893
+2019-10-15,2,"Khách mua gần đây, chi tiêu trung bình",148518.43,757
+2019-10-15,3,"Khách mua lẻ, giá trị thấp",436264.4,5057
+2019-10-16,0,Khách giá trị cao,5042885.9,13253
+2019-10-16,1,"Khách giỏ hàng lớn, chưa quay lại",3970066.25,10769
+2019-10-16,2,"Khách mua gần đây, chi tiêu trung bình",172198.46,940
+2019-10-16,3,"Khách mua lẻ, giá trị thấp",562014.11,6431
+2019-10-17,0,Khách giá trị cao,5013400.99,12783
+2019-10-17,1,"Khách giỏ hàng lớn, chưa quay lại",3382473.41,9024
+2019-10-17,2,"Khách mua gần đây, chi tiêu trung bình",152354.08,830
+2019-10-17,3,"Khách mua lẻ, giá trị thấp",477790.59,5680
+2019-10-18,0,Khách giá trị cao,4401538.34,11333
+2019-10-18,1,"Khách giỏ hàng lớn, chưa quay lại",3154779.19,8460
+2019-10-18,2,"Khách mua gần đây, chi tiêu trung bình",145057.71,803
+2019-10-18,3,"Khách mua lẻ, giá trị thấp",453406.29,5253
+2019-10-19,0,Khách giá trị cao,3981778.54,10329
+2019-10-19,1,"Khách giỏ hàng lớn, chưa quay lại",2966928.26,8080
+2019-10-19,2,"Khách mua gần đây, chi tiêu trung bình",149711.42,866
+2019-10-19,3,"Khách mua lẻ, giá trị thấp",464061.14,5382
+2019-10-20,0,Khách giá trị cao,3905824.72,10391
+2019-10-20,1,"Khách giỏ hàng lớn, chưa quay lại",2962551.78,7971
+2019-10-20,2,"Khách mua gần đây, chi tiêu trung bình",171052.77,1019
+2019-10-20,3,"Khách mua lẻ, giá trị thấp",475739.38,5716
+2019-10-21,0,Khách giá trị cao,4197797.21,10840
+2019-10-21,1,"Khách giỏ hàng lớn, chưa quay lại",3014298.93,7778
+2019-10-21,2,"Khách mua gần đây, chi tiêu trung bình",178466.52,991
+2019-10-21,3,"Khách mua lẻ, giá trị thấp",471580.98,5556
+2019-10-22,0,Khách giá trị cao,4281279.76,11001
+2019-10-22,1,"Khách giỏ hàng lớn, chưa quay lại",2955090.93,7724
+2019-10-22,2,"Khách mua gần đây, chi tiêu trung bình",206174.42,1119
+2019-10-22,3,"Khách mua lẻ, giá trị thấp",471126.33,5539
+2019-10-23,0,Khách giá trị cao,4184728.12,10942
+2019-10-23,1,"Khách giỏ hàng lớn, chưa quay lại",2713597.98,6822
+2019-10-23,2,"Khách mua gần đây, chi tiêu trung bình",294982.53,1923
+2019-10-23,3,"Khách mua lẻ, giá trị thấp",420776.16,5043
+2019-10-24,0,Khách giá trị cao,4115062.91,10810
+2019-10-24,1,"Khách giỏ hàng lớn, chưa quay lại",2162493.26,4249
+2019-10-24,2,"Khách mua gần đây, chi tiêu trung bình",1038362.3,5947
+2019-10-24,3,"Khách mua lẻ, giá trị thấp",154426.13,2993
+2019-10-25,0,Khách giá trị cao,3991923.71,10819
+2019-10-25,1,"Khách giỏ hàng lớn, chưa quay lại",1289103.77,1884
+2019-10-25,2,"Khách mua gần đây, chi tiêu trung bình",1883268.63,9299
+2019-10-25,3,"Khách mua lẻ, giá trị thấp",70922.23,1881
+2019-10-26,0,Khách giá trị cao,3718148.7,9906
+2019-10-26,1,"Khách giỏ hàng lớn, chưa quay lại",498550.61,479
+2019-10-26,2,"Khách mua gần đây, chi tiêu trung bình",2679347.94,11367
+2019-10-26,3,"Khách mua lẻ, giá trị thấp",21555.59,901
+2019-10-27,0,Khách giá trị cao,3842591.79,10134
+2019-10-27,2,"Khách mua gần đây, chi tiêu trung bình",3352144.52,13033
+2019-10-27,3,"Khách mua lẻ, giá trị thấp",2784.33,234
+2019-10-28,0,Khách giá trị cao,3696974.05,9287
+2019-10-28,2,"Khách mua gần đây, chi tiêu trung bình",2893915.02,11735
+2019-10-28,3,"Khách mua lẻ, giá trị thấp",556.05,89
+2019-10-29,0,Khách giá trị cao,3433553.47,8694
+2019-10-29,2,"Khách mua gần đây, chi tiêu trung bình",2998603.69,11675
+2019-10-29,3,"Khách mua lẻ, giá trị thấp",4.84,3
+2019-10-30,0,Khách giá trị cao,3428592.36,8521
+2019-10-30,2,"Khách mua gần đây, chi tiêu trung bình",3205289.79,12294
+2019-10-31,0,Khách giá trị cao,3204616.55,7532
+2019-10-31,2,"Khách mua gần đây, chi tiêu trung bình",3250805.7,12565

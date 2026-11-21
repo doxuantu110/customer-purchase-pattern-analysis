@@ -1,0 +1,5 @@
+﻿segment_id,segment,customers,purchases,revenue,recency_mean,frequency_mean,monetary_mean,monetary_median,pct_customers,pct_revenue,avg_order_value
+0,Khách giá trị cao,37845,305217,118171265.92,8.6,8.06,3122.51,1787.99,10.9,51.39,387.17
+1,"Khách giỏ hàng lớn, chưa quay lại",119743,200837,76504019.16,18.5,1.68,638.9,451.72,34.5,33.27,380.93
+2,"Khách mua gần đây, chi tiêu trung bình",71521,105139,24306164.33,4.1,1.47,339.85,221.02,20.6,10.57,231.18
+3,"Khách mua lẻ, giá trị thấp",118009,131580,10951763.22,18.93,1.11,92.8,85.97,34.0,4.76,83.23
