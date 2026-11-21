@@ -25,3 +25,4 @@ Job: customerstats trên events_clean.csv (5,28 GiB, 43 block, 43 map task).
 Nhận xét: shuffle chỉ ~31,6 MiB nên số reducer ít ảnh hưởng; 4 reducer có xu hướng chậm hơn do overhead.
 Kết quả 2 reducer: PASS so với ground_truth.csv (347.118 khách).
 Lỗi đã gặp: MRAppMaster thiếu HADOOP_MAPRED_HOME, xử lý bằng -D yarn.app.mapreduce.am.env/mapreduce.map.env/mapreduce.reduce.env.
+
