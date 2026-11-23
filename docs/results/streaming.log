@@ -1,0 +1,139 @@
+Deleted /retail/output/azure_streaming
+packageJobJar: [/tmp/hadoop-unjar2453969762923259623/] [] /tmp/streamjob5379770128503971488.jar tmpDir=null
+2026-11-23 08:04:44 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at resourcemanager/172.18.0.4:8032
+2026-11-23 08:04:44 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at resourcemanager/172.18.0.4:8032
+2026-11-23 08:04:44 INFO  JobResourceUploader:907 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1795415627121_0010
+2026-11-23 08:04:44 INFO  FileInputFormat:266 - Total input files to process : 1
+2026-11-23 08:04:44 INFO  JobSubmitter:202 - number of splits:43
+2026-11-23 08:04:44 INFO  JobSubmitter:298 - Submitting tokens for job: job_1795415627121_0010
+2026-11-23 08:04:44 INFO  JobSubmitter:299 - Executing with tokens: []
+2026-11-23 08:04:45 INFO  Configuration:2854 - resource-types.xml not found
+2026-11-23 08:04:45 INFO  ResourceUtils:476 - Unable to find 'resource-types.xml'.
+2026-11-23 08:04:45 INFO  YarnClientImpl:338 - Submitted application application_1795415627121_0010
+2026-11-23 08:04:45 INFO  Job:1682 - The url to track the job: http://resourcemanager:8088/proxy/application_1795415627121_0010/
+2026-11-23 08:04:45 INFO  Job:1727 - Running job: job_1795415627121_0010
+2026-11-23 08:04:50 INFO  Job:1748 - Job job_1795415627121_0010 running in uber mode : false
+2026-11-23 08:04:50 INFO  Job:1755 -  map 0% reduce 0%
+2026-11-23 08:04:58 INFO  Job:1755 -  map 2% reduce 0%
+2026-11-23 08:04:59 INFO  Job:1755 -  map 5% reduce 0%
+2026-11-23 08:05:00 INFO  Job:1755 -  map 7% reduce 0%
+2026-11-23 08:05:04 INFO  Job:1755 -  map 9% reduce 0%
+2026-11-23 08:05:05 INFO  Job:1755 -  map 12% reduce 0%
+2026-11-23 08:05:08 INFO  Job:1755 -  map 14% reduce 0%
+2026-11-23 08:05:10 INFO  Job:1755 -  map 16% reduce 0%
+2026-11-23 08:05:13 INFO  Job:1755 -  map 19% reduce 0%
+2026-11-23 08:05:15 INFO  Job:1755 -  map 21% reduce 0%
+2026-11-23 08:05:17 INFO  Job:1755 -  map 23% reduce 0%
+2026-11-23 08:05:20 INFO  Job:1755 -  map 26% reduce 0%
+2026-11-23 08:05:22 INFO  Job:1755 -  map 28% reduce 0%
+2026-11-23 08:05:24 INFO  Job:1755 -  map 30% reduce 0%
+2026-11-23 08:05:27 INFO  Job:1755 -  map 33% reduce 0%
+2026-11-23 08:05:29 INFO  Job:1755 -  map 35% reduce 0%
+2026-11-23 08:05:31 INFO  Job:1755 -  map 37% reduce 0%
+2026-11-23 08:05:35 INFO  Job:1755 -  map 40% reduce 0%
+2026-11-23 08:05:36 INFO  Job:1755 -  map 42% reduce 0%
+2026-11-23 08:05:40 INFO  Job:1755 -  map 44% reduce 0%
+2026-11-23 08:05:43 INFO  Job:1755 -  map 47% reduce 0%
+2026-11-23 08:05:46 INFO  Job:1755 -  map 49% reduce 0%
+2026-11-23 08:05:47 INFO  Job:1755 -  map 49% reduce 8%
+2026-11-23 08:05:49 INFO  Job:1755 -  map 51% reduce 8%
+2026-11-23 08:05:52 INFO  Job:1755 -  map 53% reduce 8%
+2026-11-23 08:05:53 INFO  Job:1755 -  map 53% reduce 9%
+2026-11-23 08:05:55 INFO  Job:1755 -  map 56% reduce 9%
+2026-11-23 08:05:58 INFO  Job:1755 -  map 58% reduce 9%
+2026-11-23 08:05:59 INFO  Job:1755 -  map 58% reduce 10%
+2026-11-23 08:06:01 INFO  Job:1755 -  map 60% reduce 10%
+2026-11-23 08:06:04 INFO  Job:1755 -  map 63% reduce 10%
+2026-11-23 08:06:07 INFO  Job:1755 -  map 65% reduce 10%
+2026-11-23 08:06:10 INFO  Job:1755 -  map 67% reduce 10%
+2026-11-23 08:06:11 INFO  Job:1755 -  map 67% reduce 11%
+2026-11-23 08:06:13 INFO  Job:1755 -  map 70% reduce 11%
+2026-11-23 08:06:16 INFO  Job:1755 -  map 72% reduce 11%
+2026-11-23 08:06:17 INFO  Job:1755 -  map 72% reduce 12%
+2026-11-23 08:06:19 INFO  Job:1755 -  map 74% reduce 12%
+2026-11-23 08:06:22 INFO  Job:1755 -  map 77% reduce 12%
+2026-11-23 08:06:23 INFO  Job:1755 -  map 77% reduce 13%
+2026-11-23 08:06:25 INFO  Job:1755 -  map 79% reduce 13%
+2026-11-23 08:06:28 INFO  Job:1755 -  map 81% reduce 13%
+2026-11-23 08:06:29 INFO  Job:1755 -  map 81% reduce 14%
+2026-11-23 08:06:31 INFO  Job:1755 -  map 84% reduce 14%
+2026-11-23 08:06:34 INFO  Job:1755 -  map 86% reduce 14%
+2026-11-23 08:06:37 INFO  Job:1755 -  map 88% reduce 14%
+2026-11-23 08:06:40 INFO  Job:1755 -  map 91% reduce 14%
+2026-11-23 08:06:41 INFO  Job:1755 -  map 91% reduce 15%
+2026-11-23 08:06:43 INFO  Job:1755 -  map 93% reduce 15%
+2026-11-23 08:06:46 INFO  Job:1755 -  map 95% reduce 15%
+2026-11-23 08:06:47 INFO  Job:1755 -  map 95% reduce 16%
+2026-11-23 08:06:50 INFO  Job:1755 -  map 98% reduce 16%
+2026-11-23 08:06:54 INFO  Job:1755 -  map 100% reduce 16%
+2026-11-23 08:06:58 INFO  Job:1755 -  map 100% reduce 100%
+2026-11-23 08:06:58 INFO  Job:1766 - Job job_1795415627121_0010 completed successfully
+2026-11-23 08:06:58 INFO  Job:1773 - Counters: 56
+	File System Counters
+		FILE: Number of bytes read=28796183
+		FILE: Number of bytes written=70201340
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=5665849128
+		HDFS: Number of bytes written=22796538
+		HDFS: Number of read operations=139
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=4
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=43
+		Launched reduce tasks=2
+		Rack-local map tasks=43
+		Total time spent by all maps in occupied slots (ms)=152877
+		Total time spent by all reduces in occupied slots (ms)=96467
+		Total time spent by all map tasks (ms)=152877
+		Total time spent by all reduce tasks (ms)=96467
+		Total vcore-milliseconds taken by all map tasks=152877
+		Total vcore-milliseconds taken by all reduce tasks=96467
+		Total megabyte-milliseconds taken by all map tasks=156546048
+		Total megabyte-milliseconds taken by all reduce tasks=98782208
+	Map-Reduce Framework
+		Map input records=42349874
+		Map output records=742773
+		Map output bytes=27310625
+		Map output materialized bytes=28796687
+		Input split bytes=4171
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=347118
+		Reduce shuffle bytes=28796687
+		Reduce input records=742773
+		Reduce output records=347118
+		Spilled Records=1485546
+		Shuffled Maps =86
+		Failed Shuffles=0
+		Merged Map outputs=86
+		GC time elapsed (ms)=4682
+		CPU time spent (ms)=81910
+		Physical memory (bytes) snapshot=17202278400
+		Virtual memory (bytes) snapshot=99584786432
+		Total committed heap usage (bytes)=16127098880
+		Peak Map Physical memory (bytes)=476483584
+		Peak Map Virtual memory (bytes)=2200166400
+		Peak Reduce Physical memory (bytes)=229924864
+		Peak Reduce Virtual memory (bytes)=2645831680
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=5665844957
+	File Output Format Counters 
+		Bytes Written=22796538
+	retail
+		PURCHASE_RECORDS=742773
+		SKIPPED_NON_PURCHASE=41607101
+2026-11-23 08:06:58 INFO  StreamJob:1029 - Output directory: /retail/output/azure_streaming
+
+real	2m15.610s
+user	0m5.211s
+sys	0m0.564s

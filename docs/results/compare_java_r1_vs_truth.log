@@ -1,0 +1,5 @@
+Dòng MapReduce: 347,118 | dòng đối chiếu: 347,118
+Chỉ có ở MapReduce: 0 | chỉ có ở đối chiếu: 0
+Sai num_purchases: 0 | sai first: 0 | sai last: 0
+Lệch lớn nhất total_spent: 0.0000 | avg_amount: 0.0100 (cho phép <= 0.011 do làm tròn)
+KẾT QUẢ: PASS

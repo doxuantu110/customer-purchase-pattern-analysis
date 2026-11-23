@@ -1,0 +1,5 @@
+Dòng A: 347,118 | dòng B: 347,118 | chỉ có ở A: 0 | chỉ có ở B: 0
+Giống hệt từng ký tự: 335,222/347,118 khách
+Lệch lớn nhất total_spent: 0.0000 | avg_amount: 0.0100
+Sai num_purchases/first/last: 0
+KẾT QUẢ: PASS

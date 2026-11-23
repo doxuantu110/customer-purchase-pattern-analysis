@@ -1,0 +1,5 @@
+timepattern: 168 ô (tối đa 168), tổng giao dịch 742,773
+productstats: 42,241 sản phẩm, tổng lượt mua 742,773
+ground truth: tổng lượt mua 742,773
+Lệch tổng doanh thu (sản phẩm so với khách): 0.00
+KẾT QUẢ: PASS

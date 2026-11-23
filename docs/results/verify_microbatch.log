@@ -1,0 +1,11 @@
+=== gap30
+10 lô, 2654 giao dịch, 2120 khách (tính lại) | 2120 khách (trạng thái)
+Khách thiếu/thừa: 0 | sai số lượt: 0 | sai thời gian: 0 | lệch tổng lớn nhất: 0.0000
+KẾT QUẢ: PASS
+=== gap60
+Chưa có lô nào được xử lý.
+=== uber
+Chưa có lô nào được xử lý.
+20 lô, 5308 giao dịch, 2120 khách (tính lại) | 2120 khách (trạng thái)
+Khách thiếu/thừa: 0 | sai số lượt: 0 | sai thời gian: 0 | lệch tổng lớn nhất: 0.0000
+KẾT QUẢ: PASS
