@@ -80,3 +80,13 @@ Lỗi đã gặp: MRAppMaster thiếu HADOOP_MAPRED_HOME, xử lý bằng -D yar
 
 - Giới hạn: dữ liệu chỉ một tháng (Recency tối đa 31 ngày) nên không kết luận khách "ngủ đông"; cảnh báo joblib về số lõi CPU trên Windows là vô hại.
 - Lưu: output/customer_clusters.csv, output/cluster_profile.csv, models/kmeans_rfm.joblib (nhãn đánh số lại theo Monetary giảm dần).
+
+## Ngày 12 - Micro-batch trên Azure VM
+- 3 lần chạy, mỗi lần 10 lô (100-500 giao dịch), runner --mode cluster (2 DataNode):
+  | Cấu hình | Job TB | Chờ TB | Độ trễ TB | Độ trễ max |
+  | 30s, không uber | 25,2s | 0,6s | 25,8s | 26,6s |
+  | 60s, không uber | 25,3s | 0,4s | 25,7s | 27,1s |
+  | 30s, --uber | 16,8s | 0,5s | 17,3s | 18,1s |
+- Uber giảm thời gian job khoảng 8,4s (33%) so với cùng khoảng cách 30s; mỗi cấu hình chạy một lần.
+- Không bão hòa vì job (khoảng 25s) nhỏ hơn khoảng cách lô; trên laptop job khoảng 30s nên bão hòa và độ trễ 93s.
+- Tính đúng đắn: lần 30s PASS (2.654 giao dịch, 2.120 khách, doanh thu 805.322,26, khớp lần chạy laptop). Lần uber sinh lại cùng 10 lô nên trạng thái gộp 20 lô có doanh thu đếm đôi; chỉ dùng cho độ trễ.

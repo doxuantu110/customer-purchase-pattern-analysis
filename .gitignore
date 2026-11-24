@@ -20,3 +20,4 @@ data/
 data/clean/*
 !data/clean/sample.csv
 !data/clean/sample_events.csv
+vm-hadoop_key.pem

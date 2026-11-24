@@ -31,6 +31,9 @@ ap.add_argument("--python", default="python", help="lệnh Python trong containe
 ap.add_argument("--hadoop-home", default="/opt/hadoop")
 ap.add_argument("--streaming-version", default="3.3.6")
 ap.add_argument("--reducers", type=int, default=1)
+ap.add_argument("--on-batch", default=None,
+                help="lệnh shell chạy sau mỗi lô (biến môi trường: BATCH, ROWS, JOB_S, QUEUE_WAIT_S, LATENCY_S, "
+                     "CUSTOMERS, REVENUE, STATE_PATH, BASE); lỗi của lệnh không làm dừng runner")
 ap.add_argument("--uber", action="store_true",
                 help="bật uber mode: chạy map/reduce ngay trong ApplicationMaster, bớt thời gian khởi động container")
 args = ap.parse_args()
@@ -143,9 +146,18 @@ with open(lat_path, "a", newline="", encoding="utf-8") as lf:
         lf.flush()
         rows_log.append((t_job - t_start, t_done - arrival))
         done += 1
+        revenue = sum(s["total"] for s in state.values())
         print("%s  %s  %d giao dịch | job %.1fs | chờ %.1fs | độ trễ %.1fs | %d khách, doanh thu %.2f"
               % (time.strftime("%H:%M:%S"), name, nrows, t_job - t_start, t_start - arrival, t_done - arrival,
-                 len(state), sum(s["total"] for s in state.values())), flush=True)
+                 len(state), revenue), flush=True)
+        if args.on_batch:
+            hook_env = dict(os.environ, BATCH=name, ROWS=str(nrows), JOB_S="%.2f" % (t_job - t_start),
+                            QUEUE_WAIT_S="%.2f" % (t_start - arrival), LATENCY_S="%.2f" % (t_done - arrival),
+                            CUSTOMERS=str(len(state)), REVENUE="%.2f" % revenue,
+                            STATE_PATH=os.path.abspath(state_path), BASE=os.path.abspath(args.base))
+            hr = subprocess.run(args.on_batch, shell=True, env=hook_env)
+            if hr.returncode:
+                print("CẢNH BÁO: lệnh --on-batch trả mã %d (runner vẫn tiếp tục)" % hr.returncode, flush=True)
 
 if rows_log:
     jobs = [r[0] for r in rows_log]
