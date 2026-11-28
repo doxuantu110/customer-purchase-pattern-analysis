@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-# Reducer Hadoop Streaming: cộng số lượt và doanh thu (xu) theo khóa, xuất doanh thu dạng thập phân.
+# -*- coding: utf-8 -*-
+# Reducer Hadoop Streaming: cong so luot va doanh thu (xu) theo khoa, xuat doanh thu dang thap phan.
 from __future__ import print_function
 import sys
 

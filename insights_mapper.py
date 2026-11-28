@@ -1,8 +1,9 @@
 #!/usr/bin/env python
-# Mapper Hadoop Streaming (chạy được trên Python 2.7 và 3): nhận dòng sự kiện 9 cột, phát khóa tổng hợp.
-#   H|thứ|giờ                  -> bảng thứ x giờ
-#   P|sản phẩm|danh mục|hãng   -> bảng sản phẩm
-# Giá trị: số lượt (1) và giá tính bằng xu (số nguyên, tránh sai số số thực).
+# -*- coding: utf-8 -*-
+# Mapper Hadoop Streaming (chay duoc tren Python 2.7 va 3): nhan dong su kien 9 cot, phat khoa tong hop.
+#   H|thu|gio                  -> bang thu x gio
+#   P|san pham|danh muc|hang   -> bang san pham
+# Gia tri: so luot (1) va gia tinh bang xu (so nguyen, tranh sai so so thuc).
 from __future__ import print_function
 import sys
 from datetime import datetime
