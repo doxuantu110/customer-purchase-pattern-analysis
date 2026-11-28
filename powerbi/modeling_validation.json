@@ -1,0 +1,334 @@
+{
+  "generated_at_utc": "2026-11-28T09:19:07Z",
+  "overall_status": "WARNING",
+  "critical_failures": [],
+  "warnings": [
+    "273 products have conflicting category_code (0) or brand (273) values in transactions.csv; resolved using deterministic policy.",
+    "71822 customers have minor two-decimal rounding differences between avg_amount and total_spent / num_purchases (max diff 0.005000 <= 0.011)."
+  ],
+  "inputs": {
+    "transactions": "data/clean/transactions.csv",
+    "customer_segments": "output/dashboard/customer_segments.csv",
+    "customerstats_dir": "data/local_out/yarn_customer_r2",
+    "customerstats_files": [
+      "part-r-00000",
+      "part-r-00001"
+    ],
+    "productstats_dir": "data/local_out/full_product",
+    "productstats_files": [
+      "part-r-00000",
+      "part-r-00001"
+    ]
+  },
+  "source_row_counts": {
+    "transactions": 742773,
+    "customer_segments": 347118,
+    "customerstats": 347118,
+    "productstats": 42241
+  },
+  "output_row_counts": {
+    "FactPurchase": 742773,
+    "DimCustomer": 347118,
+    "DimProduct": 42241,
+    "DimDate": 31,
+    "DimTime": 24
+  },
+  "timestamp_validation": {
+    "timezone": "UTC",
+    "parse_failures": 0,
+    "min_timestamp_utc": "2019-10-01 00:02:14+00:00",
+    "max_timestamp_utc": "2019-10-31 23:59:16+00:00"
+  },
+  "dimension_uniqueness": {
+    "DimCustomer_CustomerKey_unique": true,
+    "DimCustomer_customer_id_unique": true,
+    "DimCustomer_duplicate_customer_id_count": 0,
+    "DimProduct_ProductKey_unique": true,
+    "DimProduct_product_id_unique": true,
+    "DimProduct_duplicate_product_id_count": 0,
+    "DimDate_DateKey_unique": true,
+    "DimTime_TimeKey_unique": true,
+    "DimTime_exact_24_rows": true
+  },
+  "foreign_key_integrity": {
+    "CustomerKey_null_count": 0,
+    "CustomerKey_invalid_count": 0,
+    "ProductKey_null_count": 0,
+    "ProductKey_invalid_count": 0,
+    "DateKey_null_count": 0,
+    "DateKey_invalid_count": 0,
+    "TimeKey_null_count": 0,
+    "TimeKey_invalid_count": 0,
+    "fact_row_count_matches_source": true
+  },
+  "revenue_reconciliation": {
+    "source_transactions_revenue": 229933212.63,
+    "fact_purchase_revenue": 229933212.63,
+    "customer_segments_monetary_total": 229933212.63,
+    "customerstats_revenue_total": 229933212.63,
+    "productstats_revenue_total": 229933212.63,
+    "diff_source_vs_fact": 0.0,
+    "source_vs_fact_exact_match": true,
+    "source_vs_fact_within_tolerance": true,
+    "diff_source_vs_customer_segments": 0.0,
+    "source_vs_customer_segments_exact_match": true,
+    "source_vs_customer_segments_within_tolerance": true,
+    "diff_source_vs_customerstats": 0.0,
+    "source_vs_customerstats_exact_match": true,
+    "source_vs_customerstats_within_tolerance": true,
+    "diff_customer_segments_vs_customerstats": 0.0,
+    "customer_segments_vs_customerstats_exact_match": true,
+    "diff_source_vs_productstats": 0.0,
+    "source_vs_productstats_exact_match": true,
+    "tolerances": {
+      "source_vs_fact": 0.01,
+      "aggregate_two_decimal_rounding": 1.0
+    },
+    "total_purchase_rows": {
+      "source_transactions": 742773,
+      "fact_purchase": 742773,
+      "sum_customer_segments_num_purchases": 742773,
+      "sum_customerstats_num_purchases": 742773,
+      "sum_productstats_num_purchases": 742773
+    }
+  },
+  "customer_reconciliation": {
+    "customer_segments_vs_customerstats": {
+      "matched_customers": 347118,
+      "only_in_customer_segments_count": 0,
+      "only_in_customer_segments_examples": [],
+      "only_in_customerstats_count": 0,
+      "only_in_customerstats_examples": [],
+      "frequency_mismatch_count": 0,
+      "frequency_max_abs_diff": 0,
+      "frequency_mismatch_examples": [],
+      "monetary_exact_diff_count": 0,
+      "monetary_over_tolerance_count": 0,
+      "monetary_tolerance": 0.011,
+      "monetary_max_abs_diff": 0.0,
+      "monetary_over_tolerance_examples": [],
+      "avg_amount_exact_diff_count": 0,
+      "avg_amount_over_tolerance_count": 0,
+      "avg_amount_tolerance": 0.011,
+      "avg_amount_max_abs_diff": 0.0,
+      "avg_amount_over_tolerance_examples": []
+    },
+    "avg_amount_formula_check": {
+      "tolerance": 0.011,
+      "rows_with_rounding_diff": 71822,
+      "rows_over_tolerance": 0,
+      "max_abs_diff": 0.005,
+      "over_tolerance_examples": []
+    },
+    "customer_segments_vs_transactions": {
+      "only_in_customer_segments_count": 0,
+      "only_in_customer_segments_examples": [],
+      "only_in_transactions_count": 0,
+      "only_in_transactions_examples": [],
+      "frequency_mismatch_count": 0,
+      "monetary_over_tolerance_count": 0,
+      "monetary_max_abs_diff": 0.0
+    }
+  },
+  "product_reconciliation": {
+    "transactions_distinct_products": 42241,
+    "productstats_rows": 42241,
+    "matched_products": 42241,
+    "in_transactions_missing_from_productstats_count": 0,
+    "in_transactions_missing_from_productstats_examples": [],
+    "in_productstats_missing_from_transactions_count": 0,
+    "in_productstats_missing_from_transactions_examples": [],
+    "purchase_count_mismatch_count": 0,
+    "revenue_over_tolerance_count": 0,
+    "revenue_max_abs_diff": 0.0,
+    "attribute_conflicts": {
+      "policy": "Keep exactly one row per product_id. When conflicting values exist, prefer non-'unknown' values if present, then choose the most frequent (mode) value, breaking ties deterministically by latest UTC timestamp and then alphabetical order.",
+      "category_conflict_count": 0,
+      "brand_conflict_count": 273,
+      "total_products_with_any_conflict": 273,
+      "category_conflict_examples": [],
+      "brand_conflict_examples": [
+        {
+          "product_id": "1002796",
+          "selected_value": "apple",
+          "conflicting_values": {
+            "apple": 120,
+            "unknown": 4
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        },
+        {
+          "product_id": "1003208",
+          "selected_value": "samsung",
+          "conflicting_values": {
+            "samsung": 39,
+            "unknown": 1
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        },
+        {
+          "product_id": "1003209",
+          "selected_value": "samsung",
+          "conflicting_values": {
+            "samsung": 13,
+            "unknown": 2
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        },
+        {
+          "product_id": "1003912",
+          "selected_value": "samsung",
+          "conflicting_values": {
+            "samsung": 4,
+            "unknown": 1
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        },
+        {
+          "product_id": "1004885",
+          "selected_value": "asus",
+          "conflicting_values": {
+            "asus": 5,
+            "unknown": 1
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        },
+        {
+          "product_id": "1005173",
+          "selected_value": "samsung",
+          "conflicting_values": {
+            "samsung": 100,
+            "unknown": 4
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        },
+        {
+          "product_id": "1005174",
+          "selected_value": "samsung",
+          "conflicting_values": {
+            "samsung": 488,
+            "unknown": 179
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        },
+        {
+          "product_id": "1005175",
+          "selected_value": "samsung",
+          "conflicting_values": {
+            "samsung": 84,
+            "unknown": 3
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        },
+        {
+          "product_id": "1005176",
+          "selected_value": "samsung",
+          "conflicting_values": {
+            "samsung": 7,
+            "unknown": 11
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        },
+        {
+          "product_id": "1005177",
+          "selected_value": "samsung",
+          "conflicting_values": {
+            "samsung": 296,
+            "unknown": 41
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        },
+        {
+          "product_id": "1005178",
+          "selected_value": "samsung",
+          "conflicting_values": {
+            "samsung": 188,
+            "unknown": 5
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        },
+        {
+          "product_id": "1005179",
+          "selected_value": "samsung",
+          "conflicting_values": {
+            "samsung": 129,
+            "unknown": 14
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        },
+        {
+          "product_id": "1005180",
+          "selected_value": "samsung",
+          "conflicting_values": {
+            "samsung": 86,
+            "unknown": 4
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        },
+        {
+          "product_id": "1005181",
+          "selected_value": "samsung",
+          "conflicting_values": {
+            "samsung": 16,
+            "unknown": 20
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        },
+        {
+          "product_id": "1005182",
+          "selected_value": "samsung",
+          "conflicting_values": {
+            "samsung": 163,
+            "unknown": 13
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        },
+        {
+          "product_id": "1005183",
+          "selected_value": "samsung",
+          "conflicting_values": {
+            "samsung": 41,
+            "unknown": 9
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        },
+        {
+          "product_id": "1005184",
+          "selected_value": "samsung",
+          "conflicting_values": {
+            "samsung": 82,
+            "unknown": 14
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        },
+        {
+          "product_id": "1005185",
+          "selected_value": "samsung",
+          "conflicting_values": {
+            "samsung": 76,
+            "unknown": 19
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        },
+        {
+          "product_id": "1005186",
+          "selected_value": "samsung",
+          "conflicting_values": {
+            "samsung": 915,
+            "unknown": 22
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        },
+        {
+          "product_id": "1005197",
+          "selected_value": "htc",
+          "conflicting_values": {
+            "htc": 43,
+            "unknown": 2
+          },
+          "resolution_reason": "prefer_non_unknown_then_mode_then_latest_ts_then_alpha"
+        }
+      ]
+    }
+  }
+}
