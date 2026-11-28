@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # ETL tự động (demo): nguồn giao dịch đến -> phát hiện lô mới -> job Streaming trên YARN
 #                     -> cộng dồn -> bảng tổng hợp -> đẩy lên Azure Blob (output/stream) -> Power BI
-# Cần cùng thư mục gốc repo: etl_demo.sh, etl_hook.sh, push_pbi.sh, stream_aggregates.py
+# Cần cùng thư mục gốc repo: etl_demo.sh, etl_hook.sh, stream_insights.sh, stream_aggregates.py,
+#   insights_mapper.py, insights_reducer.py, push_pbi.sh
+# Mỗi lô có thêm 1 job insights (~20 s): nên để khoảng cách lô >= 50 giây
 # Chuẩn bị (mỗi phiên SSH):
 #   cd ~/customer-purchase-pattern-analysis && source .venv/bin/activate && source ~/demo_env.sh
 # Chạy:  bash etl_demo.sh [số lô] [giây giữa các lô]    (demo đẹp hơn: MINROWS=2000 MAXROWS=5000 bash etl_demo.sh 4 25)
