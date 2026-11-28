@@ -1,23 +1,34 @@
 #!/usr/bin/env bash
 # Chạy job Hadoop Streaming (insights_mapper.py / insights_reducer.py) trên YARN
 # cho các lô đã xử lý (từ lô đầu đến $BATCH). Kết quả: data/stream/insights.tsv
+# Tự nạp các lô vào HDFS trước khi chạy (dùng được cả khi chạy riêng, không qua runner).
 # Chạy từ gốc repo. Python trong container: PY=python (mặc định) hoặc PY=python3.
 set -euo pipefail
+shopt -s nullglob
 PY=${PY:-python}
-INPUTS=""
+NAMES=()
 for f in data/stream/incoming/batch_*.csv; do
   n=$(basename "$f" .csv)
-  if [[ -z "${BATCH:-}" || ! "$n" > "$BATCH" ]]; then INPUTS="$INPUTS -input /retail/stream/incoming/$n.csv"; fi
+  if [[ -z "${BATCH:-}" || ! "$n" > "$BATCH" ]]; then NAMES+=("$n"); fi
 done
-[ -n "$INPUTS" ] || { echo "[INSIGHTS] chưa có lô nào"; exit 1; }
+if [ ${#NAMES[@]} -eq 0 ]; then
+  echo "[INSIGHTS] không thấy lô nào trong data/stream/incoming (đã chạy generate_stream.py chưa?)"; exit 1
+fi
+INPUTS=""; PUTS=""
+for n in "${NAMES[@]}"; do
+  INPUTS="$INPUTS -input /retail/stream/incoming/$n.csv"
+  PUTS="$PUTS /data/stream/incoming/$n.csv"
+done
 (cd hadoop-docker && docker compose cp ../insights_mapper.py namenode:/tmp/ >/dev/null && docker compose cp ../insights_reducer.py namenode:/tmp/ >/dev/null)
 (cd hadoop-docker && docker compose exec -T namenode bash -c "
-hdfs dfs -rm -r -f /retail/stream/insights >/dev/null
+hdfs dfs -mkdir -p /retail/stream/incoming &&
+hdfs dfs -put -f $PUTS /retail/stream/incoming/ &&
+hdfs dfs -rm -r -f /retail/stream/insights >/dev/null;
 hadoop jar /opt/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.3.6.jar \
   -D mapreduce.job.reduces=1 -D mapreduce.job.ubertask.enable=true \
   -files /tmp/insights_mapper.py,/tmp/insights_reducer.py \
   -mapper '$PY insights_mapper.py' -reducer '$PY insights_reducer.py' \
   $INPUTS -output /retail/stream/insights > /tmp/insights.log 2>&1 \
   && hdfs dfs -cat '/retail/stream/insights/part-*' > /data/stream/insights.tsv") \
-  || { echo "[INSIGHTS] job Streaming lỗi"; exit 1; }
-echo "[INSIGHTS] Hadoop Streaming xong: $(wc -l < data/stream/insights.tsv) khóa tổng hợp"
+  || { echo "[INSIGHTS] lỗi: xem thông báo phía trên hoặc /tmp/insights.log trong container namenode"; exit 1; }
+echo "[INSIGHTS] Hadoop Streaming xong (${#NAMES[@]} lô): $(wc -l < data/stream/insights.tsv) khóa tổng hợp"
